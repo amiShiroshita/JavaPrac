@@ -1,0 +1,20 @@
+package java013;
+
+//値渡し
+public class Usage01 {
+	Usage01(){
+		int data = 100;
+		method1(data);
+		System.out.println("コンストラクタ内でのdata=" + data);
+	}
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Usage01 usage = new Usage01();
+	}
+	
+	void method1(int data) {
+		data++;
+		System.out.println("method内でのdata = " + data);
+	}
+}
